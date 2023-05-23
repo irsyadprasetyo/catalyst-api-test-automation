@@ -10,7 +10,7 @@ public class ApiTest {
 
   static int requireId = 10355;
   /*
-  I decided to use other id  for assert post comments. Because i already tried many times to use 10355, but it's not working
+  Hi Ka. I already tried many times to use id 10355, but it's not working
   I always get this error "data": [ { "field": "post", "message": "must exist" } whenever I already put post in my request body
   Also, I've tried to use that CURL for delete first before use that id but I still same condition.
   I can delete other id of post but can't delete id 10355. cURL:
@@ -19,6 +19,7 @@ public class ApiTest {
   --header 'Cookie: _gorest_session=LbGwt7jTSX5dyHlSyUiZj5kzJJCCad88qHZiJFYin8ls0eqr4Jy7yfAFaNPw7HEygBlea9bRo7ZBuZWrTPSZvMk8Q1m
   0GFHjSWtYcUgjD4POggDRTMva2ewYCB6uUhzSxvMhKxTbmdfEHleWKNl2TUohksFeMtgW8HZY3UC4AOaTlLWNbMATFFHSa%2B4iLx%2BrTV%2BUxoloCLv5kpWzgMt
   EUx9hNarMRBpJMMu2cqM90Y88PzJcV7T1NzpDbwN9maB2KERRoH9wtbAL%2FJYgAJ4MkJSM5RSucMQ%3D--re4DLVs2LoOu9u1l--LOvCUlLsltg2QSuClQiPzg%3D%3D'
+  and some users on gorest are facing same issue like me. Hope you understand.
   */
 
   @Test

@@ -18,8 +18,8 @@ public class ApiControllerGoRest {
     return response;
   }
 
-  public Response postCreateNewComment() {
-    String request = "{\"post\": 29253, \"post_id\": 29253, \"name\": \"Rocky Gerunk\", \"email\": \"rg99@mailinator.com\", "
+  public Response postCreateNewComment(int id) {
+    String request = "{\"post\": "+ id +", \"post_id\": "+ id +", \"name\": \"Rocky Gerunk\", \"email\": \"rg99@mailinator.com\", "
         + "\"gender\": \"male\", \"status\": \"married\", \"body\": \"Hello! Hawayu?\"}";
 
     Response response = given().baseUri(BASE_URL).basePath("/")

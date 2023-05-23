@@ -5,12 +5,13 @@ import io.restassured.response.Response;
 public class ApiControllerGoRest {
 
   private static final String BASE_URL = "https://gorest.co.in";
-  private static final String ACCESS_TOKEN = "b9e6cf08ae864edf21f793e05331333a416a72a40774ac5a474c8b75ccb71c75";
+  private static final String ACCESS_TOKEN = "b6b7a2af83d1b4037cb1c78c881cd508398086b2f746c04d22b1e837714a8002";
 
   public Response getPostsByTitleAndBody() {
     Response response = given().baseUri(BASE_URL).basePath("/")
         .contentType(ContentType.JSON)
-        .header("Authorization", ACCESS_TOKEN).queryParam("title_like", "Catalyst")
+        .header("Authorization", ACCESS_TOKEN)
+        .queryParam("title_like", "Catalyst")
         .queryParam("body", "BUILD TRUST EMPOWER OTHERS").get("/public/v1/posts");
 
     response.getBody().prettyPrint();

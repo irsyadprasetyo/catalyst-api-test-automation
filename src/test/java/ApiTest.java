@@ -19,7 +19,7 @@ public class ApiTest {
   --header 'Cookie: _gorest_session=LbGwt7jTSX5dyHlSyUiZj5kzJJCCad88qHZiJFYin8ls0eqr4Jy7yfAFaNPw7HEygBlea9bRo7ZBuZWrTPSZvMk8Q1m
   0GFHjSWtYcUgjD4POggDRTMva2ewYCB6uUhzSxvMhKxTbmdfEHleWKNl2TUohksFeMtgW8HZY3UC4AOaTlLWNbMATFFHSa%2B4iLx%2BrTV%2BUxoloCLv5kpWzgMt
   EUx9hNarMRBpJMMu2cqM90Y88PzJcV7T1NzpDbwN9maB2KERRoH9wtbAL%2FJYgAJ4MkJSM5RSucMQ%3D--re4DLVs2LoOu9u1l--LOvCUlLsltg2QSuClQiPzg%3D%3D'
-  and some users on gorest are facing same issue like me. Hope you understand.
+  and some users on gorest are facing same issue like me. Hope you understand. Thanks in advance.
   */
 
   @Test
